@@ -12,8 +12,8 @@ import (
 	"time"
 )
 
-
 func main() {
+
 	//Will display the date and time
 	fmt.Println("The Date and Time is", time.Now())
 }

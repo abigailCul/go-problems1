@@ -1,4 +1,5 @@
-//
+//Random number generator 
+//Abigail Culkin
 
 package main
 
@@ -7,10 +8,11 @@ import (
 	"math/rand"
 )
 
+//Function will return a random number 
 func xrand(min, max int) int {
 	return rand.Intn(max - min) + min
 }
-
+//Random number is between 0-100 which is my answer
 func main() {
 	answer := xrand(1, 100)
     guessTaken := 0
@@ -20,7 +22,7 @@ func main() {
 
 	//prevG:= 0
 	fmt.Println("I have a number")
-
+//For loop allows you to take a guess 
 	for guessTaken < 100 {
 		fmt.Println("Take a guess")
 		fmt.Scanf("%d", &guess)

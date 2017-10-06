@@ -1,12 +1,12 @@
-GO Programming Language
+#GO Programming Language
 
 # Go Problem Sheet solutions
-Author: Abigail Culkin
+#Author: Abigail Culkin
 
-These are my solutions for short programs using the Go programming langueage.
+These are my solutions for short programs using the Go programming language.
 They are numbered from 1 to 10 and at the top of each in the comments iit explains what the question is.
 
-Go Programming Language
+#Go Programming Language
 
 Open source programming language
 
@@ -29,20 +29,20 @@ The print line in go is done like
 fmt.Println("Hello World")
 
 
-Prerequisites
+#Prerequisites
 
 I used visual studio code for the programs. I also used the command line to run the programs.
 To do this you need to download go and run go from the command line.
 You can install go at this link:
 https://golang.org/dl/
 
-Testing the programs
+#Testing the programs
 
 You test the programs from the command line.
 Once you are in the correct folder where the program is you can do thid by changing directory in the command line using cd "folder name"
 You then use "go run example.go"
 
-Questions
+#Questions
 
 1: Write a program that prints Hello, world! in Japanese.
 
@@ -67,7 +67,11 @@ Questions
 Useful links for Go Language
 
 https://tour.golang.org/welcome/1
+
 https://tour.golang.org/welcome/4
+
 http://wiki.c2.com/?FizzBuzzTest
+
 https://www.youtube.com/watch?v=CF9S4QZuV30
+
 https://gobyexample.com/
